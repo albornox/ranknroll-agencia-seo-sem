@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agencia de Marketing Digital Colombia | RankNRoll - Expertos en SEO y Google Ads</title>
-    <meta name="description" content="⭐ Agencia de marketing digital líder en Colombia. Servicios de SEO, Google Ads y marketing digital para empresas. ¡Aumenta tus ventas online! Contacto gratis.">
-    <meta name="keywords" content="agencia de marketing digital, agencia de marketing colombia, empresas de marketing digital, agencias de marketing digital colombia">
+    <title>Agencia de Marketing Digital Colombia | RankNRoll - Hacemos Crecer tu Empresa Online</title>
+    <meta name="description" content="⭐ Hacemos crecer tu empresa online de forma sostenible. Estrategias SEO y SEM que generan resultados medibles. +320% más tráfico y +240% más leads.">
+    <meta name="keywords" content="agencia de marketing digital, seo colombia, google ads, crecimiento online, posicionamiento web">
     <link rel="icon" type="image/png" href="https://ranknroll.co/wp-content/uploads/2024/09/logo-rank-n-roll-70-x70.png">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Agencia de Marketing Digital Colombia | RankNRoll">
-    <meta property="og:description" content="Agencia de marketing digital líder en Colombia. Servicios de SEO, Google Ads y marketing digital para empresas.">
+    <meta property="og:title" content="RankNRoll - Hacemos Crecer tu Empresa Online de Forma Sostenible">
+    <meta property="og:description" content="Estrategias SEO y SEM que generan resultados medibles. +320% más tráfico y +240% más leads en 6 meses.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ranknroll.co/">
     <meta property="og:image" content="https://ranknroll.co/wp-content/uploads/2024/09/logo-rank-n-roll-70-x70.png">
@@ -27,7 +27,7 @@
         "alternateName": "RankNRoll Agencia de Marketing Digital",
         "url": "https://ranknroll.co",
         "logo": "https://ranknroll.co/wp-content/uploads/2024/09/logo-rank-n-roll-70-x70.png",
-        "description": "Agencia de marketing digital especializada en SEO y Google Ads para empresas en Colombia",
+        "description": "Agencia especializada en crecimiento digital que hace crecer empresas online de forma sostenible",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "Cra. 64 #86-108",
@@ -38,7 +38,7 @@
         "telephone": "+573025441404",
         "email": "thunderdigitalservices@gmail.com",
         "areaServed": ["CO"],
-        "serviceType": ["SEO", "Google Ads", "Marketing Digital", "Analítica Web"],
+        "serviceType": ["SEO", "Google Ads", "Marketing Digital", "Crecimiento Online"],
         "sameAs": [
             "https://www.facebook.com/RanknRoll/",
             "https://www.instagram.com/ranknroll_seo_sem/",
@@ -48,7 +48,6 @@
     }
     </script>
     
-    <!-- CSS Styles -->
     <style>
         * {
             margin: 0;
@@ -62,16 +61,16 @@
             color: #333;
         }
         
-        /* Header Styles */
+        /* Header */
         .header {
-            background: linear-gradient(135deg, #7b2cbf, #a663cc);
-            color: white;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
             padding: 1rem 0;
             position: fixed;
             top: 0;
             width: 100%;
             z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
         }
         
         .nav-container {
@@ -88,10 +87,11 @@
             align-items: center;
             font-size: 1.5rem;
             font-weight: bold;
+            color: #7b2cbf;
         }
         
         .logo img {
-            height: 50px;
+            height: 40px;
             margin-right: 10px;
         }
         
@@ -102,72 +102,122 @@
         }
         
         .nav-menu a {
-            color: white;
+            color: #333;
             text-decoration: none;
+            font-weight: 500;
             transition: color 0.3s;
         }
         
         .nav-menu a:hover {
-            color: #c8ed3e;
+            color: #7b2cbf;
         }
         
         .contact-btn {
-            background: #c8ed3e;
-            color: #7b2cbf;
-            padding: 0.5rem 1rem;
-            border-radius: 5px;
+            background: #7b2cbf;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
             text-decoration: none;
             font-weight: bold;
-            transition: transform 0.3s;
+            transition: all 0.3s;
         }
         
         .contact-btn:hover {
-            transform: scale(1.05);
+            background: #5e1f9b;
+            transform: translateY(-2px);
         }
         
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #7b2cbf, #a663cc);
+            background: linear-gradient(135deg, #7b2cbf 0%, #a663cc 100%);
             color: white;
             padding: 8rem 0 4rem;
-            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+            opacity: 0.3;
         }
         
         .hero-container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 2rem;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 3rem;
+            align-items: center;
+        }
+        
+        .agency-badge {
+            background: rgba(200, 237, 62, 0.2);
+            color: #c8ed3e;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            display: inline-block;
         }
         
         .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
+            font-size: 3.5rem;
             font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+        }
+        
+        .hero h1 .highlight {
+            color: #c8ed3e;
         }
         
         .hero-subtitle {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             margin-bottom: 2rem;
+            opacity: 0.95;
+            font-weight: 500;
+        }
+        
+        .hero-description {
+            font-size: 1.1rem;
+            margin-bottom: 2.5rem;
             opacity: 0.9;
+            line-height: 1.6;
         }
         
-        .hero-benefits {
+        .hero-stats {
             display: flex;
-            justify-content: center;
             gap: 2rem;
-            margin-bottom: 2rem;
-            flex-wrap: wrap;
+            margin-bottom: 2.5rem;
         }
         
-        .benefit {
+        .stat-item {
             display: flex;
             align-items: center;
             gap: 0.5rem;
+            font-size: 0.95rem;
         }
         
-        .hero-cta {
+        .stat-check {
+            color: #c8ed3e;
+            font-weight: bold;
+        }
+        
+        .hero-buttons {
             display: flex;
-            justify-content: center;
             gap: 1rem;
             flex-wrap: wrap;
         }
@@ -177,11 +227,11 @@
             color: #7b2cbf;
             padding: 1rem 2rem;
             border: none;
-            border-radius: 5px;
+            border-radius: 30px;
             font-size: 1.1rem;
             font-weight: bold;
             text-decoration: none;
-            transition: transform 0.3s;
+            transition: all 0.3s;
             cursor: pointer;
         }
         
@@ -190,21 +240,101 @@
             color: white;
             padding: 1rem 2rem;
             border: 2px solid white;
-            border-radius: 5px;
+            border-radius: 30px;
             font-size: 1.1rem;
             font-weight: bold;
             text-decoration: none;
             transition: all 0.3s;
         }
         
-        .btn-primary:hover, .btn-secondary:hover {
-            transform: scale(1.05);
+        .btn-primary:hover {
+            background: #b8d934;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(200, 237, 62, 0.3);
         }
         
-        /* Services Section */
-        .services {
-            padding: 4rem 0;
+        .btn-secondary:hover {
+            background: white;
+            color: #7b2cbf;
+            transform: translateY(-2px);
+        }
+        
+        .video-container {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 2rem;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .play-button {
+            width: 80px;
+            height: 80px;
+            background: #c8ed3e;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .play-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 10px 25px rgba(200, 237, 62, 0.3);
+        }
+        
+        .play-button::after {
+            content: '▶';
+            color: #7b2cbf;
+            font-size: 1.5rem;
+            margin-left: 4px;
+        }
+        
+        .video-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        
+        .video-description {
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+        
+        /* Companies Section */
+        .companies {
+            padding: 3rem 0;
             background: #f8f9fa;
+            text-align: center;
+        }
+        
+        .companies-title {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+        
+        .companies-grid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+            flex-wrap: wrap;
+            opacity: 0.7;
+        }
+        
+        .company-logo {
+            font-weight: 600;
+            color: #999;
+        }
+        
+        /* Problem Section */
+        .problem {
+            padding: 5rem 0;
+            background: white;
         }
         
         .container {
@@ -213,234 +343,433 @@
             padding: 0 2rem;
         }
         
-        .section-title {
+        .problem-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+        
+        .problem-text h2 {
+            font-size: 2.8rem;
+            color: #333;
+            margin-bottom: 2rem;
+            line-height: 1.2;
+        }
+        
+        .problem-description {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 2.5rem;
+            line-height: 1.6;
+        }
+        
+        .problem-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+        
+        .stat-box {
+            padding: 1.5rem;
+            border-radius: 15px;
             text-align: center;
+        }
+        
+        .stat-box.orange {
+            background: linear-gradient(135deg, #ff6b35, #ff8c42);
+            color: white;
+        }
+        
+        .stat-box.red {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+        }
+        
+        .stat-number {
             font-size: 2.5rem;
-            margin-bottom: 3rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+        
+        .problem-cta {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .stat-box.time {
+            background: linear-gradient(135deg, #f39c12, #e67e22);
+            color: white;
+        }
+        
+        .stat-box.money {
+            background: linear-gradient(135deg, #2ecc71, #27ae60);
+            color: white;
+        }
+        
+        .problem-visual {
+            background: linear-gradient(135deg, #7b2cbf, #a663cc);
+            color: white;
+            padding: 3rem;
+            border-radius: 20px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .problem-icon {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .problem-visual h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        
+        .problem-visual p {
+            opacity: 0.9;
+        }
+        
+        /* Formula Section */
+        .formula {
+            padding: 5rem 0;
+            background: #f8f9fa;
+        }
+        
+        .formula-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        
+        .formula-badge {
+            background: #7b2cbf;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+            display: inline-block;
+        }
+        
+        .formula h2 {
+            font-size: 2.8rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        
+        .formula-subtitle {
+            font-size: 1.3rem;
             color: #7b2cbf;
+            margin-bottom: 1rem;
+        }
+        
+        .formula-description {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
         }
         
         .services-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             gap: 2rem;
+            margin-top: 3rem;
         }
         
         .service-card {
             background: white;
-            padding: 2rem;
-            border-radius: 10px;
-            text-align: center;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             transition: transform 0.3s;
+            position: relative;
         }
         
         .service-card:hover {
             transform: translateY(-5px);
         }
         
+        .service-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+        
         .service-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
+            width: 60px;
+            height: 60px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            font-size: 1.5rem;
+            color: white;
+        }
+        
+        .service-card.seo .service-icon {
+            background: linear-gradient(135deg, #7b2cbf, #a663cc);
+        }
+        
+        .service-card.ads .service-icon {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+        }
+        
+        .service-card.growth .service-icon {
+            background: linear-gradient(135deg, #c8ed3e, #a6d824);
         }
         
         .service-card h3 {
-            color: #7b2cbf;
-            margin-bottom: 1rem;
+            font-size: 1.4rem;
+            color: #333;
+            margin-bottom: 0.5rem;
         }
         
-        .service-card p {
+        .service-subtitle {
+            color: #666;
+            font-size: 0.9rem;
             margin-bottom: 1.5rem;
+        }
+        
+        .service-description {
+            color: #666;
+            margin-bottom: 2rem;
             line-height: 1.6;
         }
         
-        .btn-link {
-            color: #7b2cbf;
-            text-decoration: none;
+        .service-features {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+        
+        .service-features li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.8rem;
+            font-size: 0.95rem;
+        }
+        
+        .service-features li::before {
+            content: '✓';
+            color: #c8ed3e;
             font-weight: bold;
-            border: 2px solid #7b2cbf;
-            padding: 0.5rem 1rem;
-            border-radius: 5px;
+            margin-right: 0.8rem;
+        }
+        
+        .service-btn {
+            background: #7b2cbf;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 25px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
             transition: all 0.3s;
         }
         
-        .btn-link:hover {
-            background: #7b2cbf;
-            color: white;
+        .service-btn:hover {
+            background: #5e1f9b;
+            transform: translateY(-2px);
         }
         
-        /* Diagnostic Section */
-        .diagnostic {
-            padding: 4rem 0;
-            background: linear-gradient(135deg, #7b2cbf, #a663cc);
-            color: white;
-            text-align: center;
-        }
-        
-        .diagnostic-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2rem;
-            align-items: center;
-        }
-        
-        .diagnostic-text h2 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-        
-        .diagnostic-text p {
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
-        }
-        
-        .diagnostic-image {
-            text-align: center;
-        }
-        
-        .diagnostic-image img {
-            max-width: 100%;
-            border-radius: 10px;
-        }
-        
-        /* Results Section */
-        .results {
-            padding: 4rem 0;
+        /* Case Study Section */
+        .case-study {
+            padding: 5rem 0;
             background: white;
         }
         
-        .results-content {
+        .case-header {
+            margin-bottom: 3rem;
+        }
+        
+        .case-study h2 {
+            font-size: 2.8rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        
+        .case-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 2rem;
+            gap: 4rem;
             align-items: center;
         }
         
-        .results-text h2 {
-            font-size: 2.5rem;
+        .case-info h3 {
             color: #7b2cbf;
             margin-bottom: 1rem;
         }
         
-        .results-metrics {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2rem;
-            margin-top: 2rem;
+        .case-challenge {
+            margin-bottom: 2rem;
         }
         
-        .metric {
-            text-align: center;
-            padding: 1rem;
+        .case-strategy {
+            margin-bottom: 2rem;
+        }
+        
+        .case-results {
             background: #f8f9fa;
-            border-radius: 10px;
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
         }
         
-        .metric-number {
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+        
+        .result-item {
+            text-align: center;
+        }
+        
+        .result-number {
             font-size: 2rem;
             font-weight: bold;
             color: #7b2cbf;
+            margin-bottom: 0.5rem;
         }
         
-        .metric-label {
-            color: #666;
+        .result-label {
             font-size: 0.9rem;
+            color: #666;
         }
         
-        /* Cases Section */
-        .cases {
-            padding: 4rem 0;
-            background: #f8f9fa;
+        .case-btn {
+            background: #c8ed3e;
+            color: #7b2cbf;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 25px;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s;
         }
         
-        .case-study {
-            background: white;
-            padding: 2rem;
-            border-radius: 10px;
-            margin-bottom: 2rem;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        .case-btn:hover {
+            background: #b8d934;
+            transform: translateY(-2px);
         }
         
-        /* Clients Section */
-        .clients {
-            padding: 4rem 0;
-            background: white;
-            text-align: center;
-        }
-        
-        .clients-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-            align-items: center;
-        }
-        
-        .client-logo {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100px;
-            background: #f8f9fa;
-            border-radius: 10px;
-            padding: 1rem;
-        }
-        
-        .client-logo img {
-            max-width: 150px;
-            max-height: 80px;
-            opacity: 0.7;
-            transition: opacity 0.3s;
-        }
-        
-        .client-logo:hover img {
-            opacity: 1;
-        }
-        
-        /* Contact Form */
-        .contact {
+        /* CTA Section */
+        .cta {
             padding: 4rem 0;
             background: linear-gradient(135deg, #7b2cbf, #a663cc);
             color: white;
+            text-align: center;
         }
         
-        .contact-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 3rem;
-            align-items: center;
+        .cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
         }
         
-        .contact-form {
+        .cta p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        /* Contact Form */
+        .contact-form-section {
+            padding: 4rem 0;
+            background: #f8f9fa;
+        }
+        
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
             background: white;
-            padding: 2rem;
-            border-radius: 10px;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .form-container h3 {
+            font-size: 1.8rem;
             color: #333;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        
+        .form-subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 2rem;
         }
         
         .form-group {
             margin-bottom: 1.5rem;
         }
         
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        
         .form-group label {
             display: block;
             margin-bottom: 0.5rem;
-            font-weight: bold;
+            font-weight: 600;
+            color: #333;
         }
         
         .form-group input,
-        .form-group select,
         .form-group textarea {
             width: 100%;
             padding: 0.8rem;
-            border: 1px solid #ddd;
-            border-radius: 5px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
             font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #7b2cbf;
         }
         
         .form-group textarea {
-            height: 100px;
+            height: 120px;
             resize: vertical;
+        }
+        
+        .submit-btn {
+            width: 100%;
+            background: #7b2cbf;
+            color: white;
+            padding: 1rem;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .submit-btn:hover {
+            background: #5e1f9b;
+            transform: translateY(-2px);
+        }
+        
+        .submit-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
         }
         
         /* Footer */
@@ -488,7 +817,6 @@
         
         .social-links a {
             color: white;
-            font-size: 1.5rem;
             transition: all 0.3s;
             text-decoration: none;
             width: 40px;
@@ -529,8 +857,6 @@
             background-color: #25d366;
             color: #FFF;
             border-radius: 50px;
-            text-align: center;
-            font-size: 30px;
             box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
             z-index: 100;
             transition: all 0.3s;
@@ -552,37 +878,65 @@
             fill: currentColor;
         }
         
+        /* Messages */
+        .success-message {
+            background: #d4edda;
+            color: #155724;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            border: 1px solid #f5c6cb;
+        }
+        
         /* Responsive */
         @media (max-width: 768px) {
             .nav-menu {
                 display: none;
             }
             
+            .hero-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            
             .hero h1 {
-                font-size: 2rem;
+                font-size: 2.5rem;
             }
             
-            .hero-benefits {
-                flex-direction: column;
-                gap: 1rem;
+            .hero-stats {
+                justify-content: center;
+                flex-wrap: wrap;
             }
             
-            .hero-cta {
-                flex-direction: column;
+            .problem-content,
+            .case-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
             }
             
-            .diagnostic-content,
-            .results-content,
-            .contact-content {
+            .services-grid {
                 grid-template-columns: 1fr;
             }
             
-            .results-metrics {
+            .problem-stats {
                 grid-template-columns: 1fr;
             }
             
-            .case-study > div {
-                grid-template-columns: 1fr !important;
+            .results-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .form-row {
+                grid-template-columns: 1fr;
             }
             
             .social-links {
@@ -601,28 +955,6 @@
                 height: 28px;
             }
         }
-        
-        .hidden {
-            display: none;
-        }
-        
-        .success-message {
-            background: #d4edda;
-            color: #155724;
-            padding: 1rem;
-            border-radius: 5px;
-            margin-bottom: 1rem;
-            border: 1px solid #c3e6cb;
-        }
-        
-        .error-message {
-            background: #f8d7da;
-            color: #721c24;
-            padding: 1rem;
-            border-radius: 5px;
-            margin-bottom: 1rem;
-            border: 1px solid #f5c6cb;
-        }
     </style>
 </head>
 <body>
@@ -635,314 +967,314 @@
             </div>
             <nav>
                 <ul class="nav-menu">
-                    <li><a href="#agencia-seo">Agencia SEO</a></li>
-                    <li><a href="#google-ads">Google Ads</a></li>
-                    <li><a href="#marketing-digital">Marketing Digital</a></li>
                     <li><a href="#servicios">Servicios</a></li>
                     <li><a href="#casos-exito">Casos de Éxito</a></li>
+                    <li><a href="#proceso">Proceso</a></li>
+                    <li><a href="#contacto">Hablemos</a></li>
                 </ul>
             </nav>
-            <a href="#contacto" class="contact-btn">Contáctanos</a>
+            <a href="#contacto" class="contact-btn">Conversemos</a>
         </div>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-container">
-            <h1>Agencia de Marketing Digital en Colombia</h1>
-            <p class="hero-subtitle">Impulsa tu estrategia digital con resultados medibles</p>
-            
-            <div class="hero-benefits">
-                <div class="benefit">
-                    <span>✅</span>
-                    <span>Especialistas en SEO y Google Ads</span>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="agency-badge">🔥 Agencia especializada en crecimiento digital</div>
+                    <h1>Hacemos <span class="highlight">Crecer</span><br>tu Empresa <span class="highlight">Online</span><br>de Forma <span class="highlight">Sostenible</span></h1>
+                    <p class="hero-subtitle">Estrategias SEO y SEM que generan resultados medibles</p>
+                    <p class="hero-description">Somos la agencia que se especializa en hacer crecer empresas B2B y B2C con estrategias digitales probadas. Trabajamos hasta alcanzar tus objetivos de crecimiento.</p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-check">✓</span>
+                            <span>Estrategias probadas</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-check">✓</span>
+                            <span>+40 empresas creciendo</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-check">✓</span>
+                            <span>Resultados consistentes</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-buttons">
+                        <a href="#contacto" class="btn-primary">Conversemos tu proyecto</a>
+                        <a href="#casos-exito" class="btn-secondary">Ver casos de éxito</a>
+                    </div>
                 </div>
-                <div class="benefit">
-                    <span>✅</span>
-                    <span>Resultados comprobados en Colombia</span>
+                
+                <div class="video-container">
+                    <div class="play-button" onclick="openVideoModal()"></div>
+                    <h3 class="video-title">Conoce Nuestra Metodología</h3>
+                    <p class="video-description">Descubre cómo ayudamos a empresas como la tuya a multiplicar sus ventas online</p>
                 </div>
-                <div class="benefit">
-                    <span>✅</span>
-                    <span>Estrategias personalizadas para tu industria</span>
-                </div>
-            </div>
-            
-            <div class="hero-cta">
-                <a href="#contacto" class="btn-primary">Impulsa tu estrategia</a>
-                <a href="#diagnostico" class="btn-secondary">Diagnóstico gratuito</a>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="servicios" class="services">
+    <!-- Companies Section -->
+    <section class="companies">
         <div class="container">
-            <h2 class="section-title">Potencia resultados con nuestros servicios</h2>
+            <p class="companies-title">Empresas que ya están multiplicando sus ventas con nosotros</p>
+            <div class="companies-grid">
+                <div class="company-logo">TechCorp</div>
+                <div class="company-logo">InnovateLab</div>
+                <div class="company-logo">GrowthCo</div>
+                <div class="company-logo">ScaleUp</div>
+                <div class="company-logo">DigitalPro</div>
+                <div class="company-logo">NextLevel</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem">
+        <div class="container">
+            <div class="problem-content">
+                <div class="problem-text">
+                    <h2>¿Tu competencia te está quitando clientes en Google?</h2>
+                    <p class="problem-description">Mientras inviertes tiempo y dinero en estrategias que no funcionan, tus competidores capturan a TUS clientes potenciales. Cada día que pasa sin una estrategia digital sólida, pierdes oportunidades de negocio que nunca recuperarás.</p>
+                    
+                    <div class="problem-stats">
+                        <div class="stat-box orange">
+                            <div class="stat-number">73%</div>
+                            <div class="stat-label">de empresas no aparece en la primera página de Google</div>
+                        </div>
+                        <div class="stat-box red">
+                            <div class="stat-number">85%</div>
+                            <div class="stat-label">de usuarios nunca pasa de la página 1</div>
+                        </div>
+                        <div class="stat-box time">
+                            <div class="stat-number">6 meses</div>
+                            <div class="stat-label">tiempo promedio para ver resultados SEO sin expertos</div>
+                        </div>
+                        <div class="stat-box money">
+                            <div class="stat-number">$40K</div>
+                            <div class="stat-label">promedio perdido mensualmente por mala estrategia digital</div>
+                        </div>
+                    </div>
+                    
+                    <div class="problem-cta">
+                        <a href="#contacto" class="btn-primary">Acabemos con este problema</a>
+                    </div>
+                </div>
+                
+                <div class="problem-visual">
+                    <div class="problem-icon">🔍</div>
+                    <h3>Invisibilidad Online = Pérdida de Clientes</h3>
+                    <p>Cada día sin una estrategia digital sólida es una oportunidad perdida</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formula Section -->
+    <section id="servicios" class="formula">
+        <div class="container">
+            <div class="formula-header">
+                <div class="formula-badge">⭐ Servicios que multiplican resultados</div>
+                <h2>La Fórmula Exacta para Multiplicar tus Ventas</h2>
+                <p class="formula-subtitle">Estrategias probadas que convierten visitas en clientes de alto valor</p>
+                <p class="formula-description">No vendemos servicios genéricos. Creamos sistemas de crecimiento personalizados que se adaptan a tu negocio y generan resultados medibles desde el primer mes.</p>
+            </div>
             
             <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">🔍</div>
-                    <h3>Agencia SEO y Posicionamiento Web</h3>
-                    <p>Mejoramos el posicionamiento de tu sitio con estrategias efectivas para que las marcas destaquen y se posicionen correctamente en buscadores</p>
-                    <a href="#agencia-seo" class="btn-link">Seguir leyendo</a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">📊</div>
-                    <h3>Publicidad Digital (SEM)</h3>
-                    <p>Potenciamos la visibilidad online con campañas de publicidad digital efectivas, orientadas para generar resultados inmediatos</p>
-                    <a href="#google-ads" class="btn-link">Seguir leyendo</a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">📈</div>
-                    <h3>Analítica Web</h3>
-                    <p>Transformamos los datos de tu sitio en oportunidades reales de negocio, optimizando resultados y fortaleciendo la experiencia del usuario</p>
-                    <a href="#analitica-web" class="btn-link">Seguir leyendo</a>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">⚡</div>
-                    <h3>SEO - Posicionamiento en Google</h3>
-                    <p>Ayudamos a las marcas a obtener mejores resultados de la generación SEO con estrategias técnicas especializadas</p>
-                    <a href="#seo-posicionamiento" class="btn-link">Seguir leyendo</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Diagnostic Section -->
-    <section id="diagnostico" class="diagnostic">
-        <div class="container">
-            <div class="diagnostic-content">
-                <div class="diagnostic-text">
-                    <h2>¿Y si lo que piensas que necesitas no es realmente lo que necesitas?</h2>
-                    <p>Con este diagnóstico lo sabrás</p>
-                    <a href="#contacto" class="btn-primary">Hacer aquí</a>
-                </div>
-                <div class="diagnostic-image">
-                    <img src="https://ranknroll.co/wp-content/uploads/2024/11/500x626_Professional-digital-service-and-solutions-1.jpg" alt="Diagnóstico digital profesional">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Results Section -->
-    <section class="results">
-        <div class="container">
-            <div class="results-content">
-                <div class="results-text">
-                    <h2>¿En busca de mejorar resultados digitales?</h2>
-                    <p style="font-size: 1.2rem; margin-bottom: 1rem;">Iniciemos hoy</p>
-                    <p style="margin-bottom: 2rem;">Nuestro compromiso con el cliente de trabajar en un crecimiento sólido a corto, mediano y largo plazo usando estrategias basadas en datos y resultados medibles para empresas de servicios.</p>
-                    <a href="#contacto" class="btn-primary">Contáctanos</a>
-                </div>
-                <div class="results-image">
-                    <img src="https://ranknroll.co/wp-content/uploads/2024/11/750x563_Our-team-is-consist-of-professionals.jpg" alt="Equipo profesional RankNRoll">
-                </div>
-            </div>
-            
-            <div class="results-metrics">
-                <div class="metric">
-                    <div class="metric-number">+50%</div>
-                    <div class="metric-label">Incremento en tráfico orgánico</div>
-                </div>
-                <div class="metric">
-                    <div class="metric-number">+309%</div>
-                    <div class="metric-label">Oportunidades de negocio</div>
-                </div>
-                <div class="metric">
-                    <div class="metric-number">+275%</div>
-                    <div class="metric-label">Crecimiento sostenible</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Cases Section -->
-    <section id="casos-exito" class="cases">
-        <div class="container">
-            <h2 class="section-title">Casos de Éxito</h2>
-            <p style="text-align: center; margin-bottom: 2rem;">Conoce nuestros casos de éxito en diferentes sectores económicos</p>
-            
-            <p style="text-align: center; margin-bottom: 3rem;">Estos son el testimonio de la capacidad de RankNRoll para enfrentar desafíos y entregar resultados consistentes en diversos campos. Como una agencia de marketing digital integral, enfocada en estrategias que impulsan el crecimiento de sus clientes.</p>
-            
-            <!-- CognosOnline Case -->
-            <div class="case-study">
-                <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 2rem; align-items: center;">
-                    <div>
-                        <img src="https://ranknroll.co/wp-content/uploads/2024/10/logo-cognosnonline.png" alt="CognosOnline" style="max-width: 200px; margin-bottom: 1rem;">
-                        <h3 style="color: #7b2cbf; margin-bottom: 1rem;">EdTech - Soluciones Tecnológicas</h3>
-                        <div style="background: #f8f9fa; padding: 1rem; border-radius: 5px;">
-                            <div style="font-size: 2rem; color: #7b2cbf; font-weight: bold;">+309%</div>
-                            <div>Oportunidades de negocio</div>
+                <div class="service-card seo">
+                    <div class="service-header">
+                        <div class="service-icon">🔍</div>
+                        <div>
+                            <h3>SEO que Domina Google</h3>
+                            <p class="service-subtitle">Desde SL 500: Orgánico</p>
                         </div>
                     </div>
-                    <div>
-                        <h4 style="color: #7b2cbf; margin-bottom: 1rem;">El Desafío</h4>
-                        <p style="margin-bottom: 1rem;">CognosOnline, empresa líder EdTech en Latinoamérica con presencia en México, Colombia, Perú, Chile y Argentina, enfrentaba desafíos significativos en su estrategia digital y generación de leads calificados.</p>
-                        
-                        <h4 style="color: #7b2cbf; margin-bottom: 1rem;">Resultados</h4>
-                        <ul style="margin-bottom: 1rem;">
-                            <li>Crecimiento del 309% en oportunidades de negocio</li>
-                            <li>$1,637,355 USD anuales alcanzados para 2024</li>
-                            <li>Reducción de dependencia en campañas pagadas</li>
-                            <li>Crecimiento orgánico sostenible</li>
+                    <p class="service-description">Posicionamos tu empresa en el #1 de Google con las búsquedas que más facturación generan. SEO técnico y estrategias que convierten tráfico en clientes de alto valor.</p>
+                    <ul class="service-features">
+                        <li>Auditoría completa y análisis de oportunidades</li>
+                        <li>Estrategia de keywords de alta intención de compra</li>
+                        <li>Optimización técnica y velocidad de carga</li>
+                        <li>Contenido estratégico que vende</li>
+                        <li>Link building de autoridad real</li>
+                        <li>Reportes semanales con métricas de negocio</li>
+                    </ul>
+                    <a href="#contacto" class="service-btn">🔍 Evaluar mi proyecto SEO</a>
+                </div>
+                
+                <div class="service-card ads">
+                    <div class="service-header">
+                        <div class="service-icon">📊</div>
+                        <div>
+                            <h3>Google Ads Rentable</h3>
+                            <p class="service-subtitle">Resultados: $1 invertido = $3+ de retorno</p>
+                        </div>
+                    </div>
+                    <p class="service-description">Campañas de Google Ads que generan leads calificados y ventas inmediatas. Optimizamos cada peso invertido para maximizar tu ROI y escalabilidad.</p>
+                    <ul class="service-features">
+                        <li>Estrategia de campañas personalizadas</li>
+                        <li>Segmentación avanzada por buyer persona</li>
+                        <li>Landing pages de alta conversión</li>
+                        <li>Optimización continua basada en datos</li>
+                        <li>Tracking completo de conversiones</li>
+                        <li>Automatizaciones inteligentes</li>
+                    </ul>
+                    <a href="#contacto" class="service-btn">📊 Calcular ROI potencial</a>
+                </div>
+                
+                <div class="service-card growth">
+                    <div class="service-header">
+                        <div class="service-icon">🚀</div>
+                        <div>
+                            <h3>Crecimiento Integral</h3>
+                            <p class="service-subtitle">Todo en uno: Orgánico</p>
+                        </div>
+                    </div>
+                    <p class="service-description">El programa completo: SEO + SEM + Optimización de Conversiones + Analytics avanzado. Para empresas que quieren dominar su mercado online.</p>
+                    <ul class="service-features">
+                        <li>Estrategia integral SEO + SEM</li>
+                        <li>Optimización de conversiones (CRO)</li>
+                        <li>Analytics y Business Intelligence</li>
+                        <li>Automatizaciones de marketing</li>
+                        <li>Consultoría estratégica mensual</li>
+                        <li>Acceso prioritario al equipo</li>
+                    </ul>
+                    <a href="#contacto" class="service-btn">🚀 Programa VIP</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Study Section -->
+    <section id="casos-exito" class="case-study">
+        <div class="container">
+            <div class="case-header">
+                <h2>Caso Real: +320% de Tráfico y 240% más Leads en 6 Meses</h2>
+            </div>
+            
+            <div class="case-content">
+                <div class="case-info">
+                    <h3>El reto:</h3>
+                    <div class="case-challenge">
+                        <p>Una empresa de software B2B que generaba 50 leads mensuales estaba perdiendo mercado. Sus competidores dominaban Google y sus campañas publicitarias no eran rentables.</p>
+                    </div>
+                    
+                    <h3>Nuestra estrategia:</h3>
+                    <div class="case-strategy">
+                        <p>Implementamos SEO técnico + contenido estratégico + Google Ads optimizado + landing pages de alta conversión.</p>
+                    </div>
+                    
+                    <h3>Los resultados:</h3>
+                    <div class="case-results">
+                        <div class="results-grid">
+                            <div class="result-item">
+                                <div class="result-number">+320%</div>
+                                <div class="result-label">Aumento tráfico orgánico</div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-number">+240%</div>
+                                <div class="result-label">Incremento en leads</div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-number">-45%</div>
+                                <div class="result-label">Reducción costo por lead</div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-number">#1</div>
+                                <div class="result-label">Primera posición para sus keywords principales</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 2rem;">
+                        <h4 style="color: #7b2cbf; margin-bottom: 1rem;">La estrategia que usamos:</h4>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 0.5rem;">🔸 Reposicionamiento completo para keywords de alto valor comercial</li>
+                            <li style="margin-bottom: 0.5rem;">🔸 Rediseño de funnel de conversión basado en psicología del comprador</li>
+                            <li style="margin-bottom: 0.5rem;">🔸 Automatización de seguimiento de leads calificados</li>
+                            <li style="margin-bottom: 0.5rem;">🔸 Optimización de landing pages con +180% mejor conversión</li>
+                            <li style="margin-bottom: 0.5rem;">🔸 Estrategia de contenido que establece autoridad en el nicho</li>
                         </ul>
                     </div>
-                </div>
-            </div>
-
-            <!-- Nia Bakery Case -->
-            <div class="case-study">
-                <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 2rem; align-items: center;">
-                    <div>
-                        <img src="https://ranknroll.co/wp-content/uploads/2024/10/logo-nia-bakery.png" alt="Nia Bakery" style="max-width: 200px; margin-bottom: 1rem;">
-                        <h3 style="color: #7b2cbf; margin-bottom: 1rem;">Cafetería - Cartagena</h3>
-                        <div style="background: #f8f9fa; padding: 1rem; border-radius: 5px;">
-                            <div style="font-size: 2rem; color: #7b2cbf; font-weight: bold;">+200%</div>
-                            <div>Visibilidad local</div>
-                        </div>
-                    </div>
-                    <div>
-                        <h4 style="color: #7b2cbf; margin-bottom: 1rem;">El Desafío</h4>
-                        <p style="margin-bottom: 1rem;">Nia Bakery, un café artesanal en Cartagena de Indias, necesitaba aumentar su visibilidad local y atraer más clientes a través de estrategias digitales efectivas.</p>
-                        
-                        <h4 style="color: #7b2cbf; margin-bottom: 1rem;">Resultados</h4>
-                        <ul style="margin-bottom: 1rem;">
-                            <li>Incremento del 200% en visibilidad local</li>
-                            <li>Mejora significativa en Google My Business</li>
-                            <li>Aumento en el tráfico de clientes locales</li>
-                            <li>Fortalecimiento de la presencia digital</li>
-                        </ul>
-                        <a href="https://portafolio.ranknroll.co/" target="_blank" class="btn-link">Ver caso completo</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Testimonial -->
-            <div style="background: linear-gradient(135deg, #7b2cbf, #a663cc); color: white; padding: 2rem; border-radius: 10px; text-align: center; margin-top: 3rem;">
-                <blockquote style="font-size: 1.2rem; font-style: italic; margin-bottom: 1rem;">
-                    "Estos casos de éxito son testimonio de cómo una estrategia SEO bien ejecutada puede transformar la visibilidad de una marca y su revenue, logrando resultados tangibles y sostenibles en el tiempo."
-                </blockquote>
-                <cite style="font-weight: bold;">— Andrés Felipe Albornoz, Especialista SEO</cite>
-            </div>
-        </div>
-    </section>
-
-    <!-- Clients Section -->
-    <section class="clients">
-        <div class="container">
-            <h2 class="section-title">Ellos confían en nosotros</h2>
-            
-            <div class="clients-grid">
-                <div class="client-logo">
-                    <img src="https://ranknroll.co/wp-content/uploads/2024/10/logo-cognosnonline.png" alt="CognosOnline">
-                </div>
-                <div class="client-logo">
-                    <img src="https://ranknroll.co/wp-content/uploads/2024/10/logo-nia-bakery.png" alt="Nia Bakery">
-                </div>
-                <div class="client-logo">
-                    <!-- Placeholder para Amber Cloud -->
-                    <p>Amber Cloud</p>
-                </div>
-                <div class="client-logo">
-                    <!-- Placeholder para Perfect Wedding -->
-                    <p>Perfect Wedding Destination</p>
-                </div>
-            </div>
-            
-            <div style="margin-top: 3rem;">
-                <a href="#contacto" class="btn-primary">Contáctanos</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contacto" class="contact">
-        <div class="container">
-            <div class="contact-content">
-                <div class="contact-text">
-                    <h2>¿En busca de mejorar resultados digitales?</h2>
-                    <p>Iniciemos hoy</p>
-                    <img src="https://ranknroll.co/wp-content/uploads/2024/10/606x533_Haz-que-tu-negocio-despegue.jpg" alt="Haz que tu negocio despegue">
+                    
+                    <a href="#contacto" class="case-btn">Replicar estos resultados</a>
                 </div>
                 
-                <div class="contact-form">
-                    <div id="form-messages"></div>
-                    <form id="contact-form">
-                        <div class="form-group">
-                            <label for="company">Empresa *</label>
-                            <input type="text" id="company" name="company" required>
+                <div class="case-visual">
+                    <div style="background: linear-gradient(135deg, #c8ed3e, #a6d824); padding: 2rem; border-radius: 15px; text-align: center; color: #333; margin-bottom: 2rem;">
+                        <h4 style="margin-bottom: 1rem;">Crecimiento Comprobado</h4>
+                        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+                            <div style="background: white; padding: 1rem; border-radius: 10px;">
+                                <div style="font-size: 1.5rem; font-weight: bold; color: #7b2cbf;">+320%</div>
+                                <div style="font-size: 0.9rem;">Aumento tráfico orgánico</div>
+                            </div>
+                            <div style="background: white; padding: 1rem; border-radius: 10px;">
+                                <div style="font-size: 1.5rem; font-weight: bold; color: #7b2cbf;">+240%</div>
+                                <div style="font-size: 0.9rem;">Incremento en leads</div>
+                            </div>
+                            <div style="background: white; padding: 1rem; border-radius: 10px;">
+                                <div style="font-size: 1.5rem; font-weight: bold; color: #7b2cbf;">-45%</div>
+                                <div style="font-size: 0.9rem;">Reducción costo por lead</div>
+                            </div>
+                            <div style="background: white; padding: 1rem; border-radius: 10px;">
+                                <div style="font-size: 1.5rem; font-weight: bold; color: #7b2cbf;">#1</div>
+                                <div style="font-size: 0.9rem;">Primera posición en Google</div>
+                            </div>
                         </div>
-                        
-                        <div class="form-group">
-                            <label for="name">Nombre completo *</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="email">Email corporativo *</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="phone">Teléfono *</label>
-                            <input type="tel" id="phone" name="phone" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="website">Sitio web</label>
-                            <input type="url" id="website" name="website">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="industry">Industria *</label>
-                            <select id="industry" name="industry" required>
-                                <option value="">Selecciona tu industria</option>
-                                <option value="tecnologia">Tecnología</option>
-                                <option value="salud">Salud</option>
-                                <option value="educacion">Educación</option>
-                                <option value="finanzas">Finanzas</option>
-                                <option value="retail">Retail</option>
-                                <option value="inmobiliaria">Inmobiliaria</option>
-                                <option value="construccion">Construcción</option>
-                                <option value="servicios">Servicios</option>
-                                <option value="otros">Otros</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="service">Servicio de interés *</label>
-                            <select id="service" name="service" required>
-                                <option value="">Selecciona un servicio</option>
-                                <option value="seo">SEO - Posicionamiento Web</option>
-                                <option value="google-ads">Google Ads - SEM</option>
-                                <option value="marketing-digital">Marketing Digital Integral</option>
-                                <option value="analitica-web">Analítica Web</option>
-                                <option value="consultoria">Consultoría Digital</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="budget">Presupuesto mensual</label>
-                            <select id="budget" name="budget">
-                                <option value="">Selecciona tu presupuesto</option>
-                                <option value="500-1000">$500,000 - $1,000,000 COP</option>
-                                <option value="1000-3000">$1,000,000 - $3,000,000 COP</option>
-                                <option value="3000-5000">$3,000,000 - $5,000,000 COP</option>
-                                <option value="5000+">Más de $5,000,000 COP</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="message">Cuéntanos sobre tu proyecto</label>
-                            <textarea id="message" name="message" placeholder="Describe tus objetivos y desafíos actuales..."></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn-primary" style="width: 100%;">Enviar consulta</button>
-                    </form>
+                    </div>
+                    
+                    <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 15px; border-left: 4px solid #7b2cbf;">
+                        <p style="font-style: italic; margin-bottom: 1rem; color: #666;">"En 6 meses pasaron de ser una empresa invisible online a dominar completamente su nicho. Los resultados superaron todas nuestras expectativas y ahora tienen una ventaja competitiva sostenible."</p>
+                        <p style="font-weight: bold; color: #7b2cbf;">— Andrés Felipe Albornoz, Especialista SEO</p>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>¿Quieres Hacer Crecer tu Empresa de Forma Sostenible?</h2>
+            <p>Hablemos sobre tu proyecto y objetivos. Te mostraremos exactamente cómo podemos ayudarte a crecer online con estrategias probadas y resultados medibles.</p>
+            <a href="#contacto" class="btn-primary">Hablemos de tu proyecto</a>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contacto" class="contact-form-section">
+        <div class="container">
+            <div class="form-container">
+                <h3>Conversemos sobre tu Proyecto</h3>
+                <p class="form-subtitle">Cuéntanos sobre tu empresa y tus objetivos. Evaluaremos si somos el partner ideal para hacer crecer tu negocio.</p>
+                
+                <div id="form-messages"></div>
+                <form id="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nombre *</label>
+                            <input type="text" id="name" name="name" placeholder="Tu nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" placeholder="tu@empresa.com" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="company">Empresa *</label>
+                        <input type="text" id="company" name="company" placeholder="Nombre de tu empresa" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="challenge">¿Cuál es tu principal desafío u objetivo? *</label>
+                        <textarea id="challenge" name="challenge" placeholder="Ej: Necesitamos aparecer primero en Google para nuestros servicios principales..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn" id="submit-btn">Enviar solicitud</button>
+                </form>
             </div>
         </div>
     </section>
@@ -953,7 +1285,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>RankNRoll Agencia de Marketing Digital</h3>
-                    <p>Impulsamos tu negocio con SEO y estrategias digitales para mejorar su visibilidad y posicionamiento en línea.</p>
+                    <p>Hacemos crecer empresas online de forma sostenible con estrategias SEO y SEM que generan resultados medibles y crecimiento a largo plazo.</p>
                     <div class="social-links">
                         <!-- WhatsApp -->
                         <a href="https://wa.me/573025441404?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20sus%20servicios%20de%20marketing%20digital" target="_blank" aria-label="WhatsApp">
@@ -1005,42 +1337,30 @@
                 <div class="footer-section">
                     <h3>Servicios</h3>
                     <ul>
-                        <li><a href="#agencia-seo">Agencia SEO</a></li>
-                        <li><a href="#google-ads">Google Ads</a></li>
-                        <li><a href="#marketing-digital">Marketing Digital</a></li>
-                        <li><a href="#analitica-web">Analítica Web</a></li>
-                        <li><a href="#seo-local">SEO Local</a></li>
-                        <li><a href="#seo-internacional">SEO Internacional</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-section">
-                    <h3>Ciudades</h3>
-                    <ul>
-                        <li><a href="/agencia-marketing-bogota/">Agencia Marketing Bogotá</a></li>
-                        <li><a href="/agencia-marketing-digital-medellin/">Agencia Marketing Medellín</a></li>
-                        <li><a href="/agencia-marketing-cali/">Agencia Marketing Cali</a></li>
-                        <li><a href="/agencia-marketing-barranquilla/">Agencia Marketing Barranquilla</a></li>
-                        <li><a href="/agencia-seo-bogota/">Agencia SEO Bogotá</a></li>
-                        <li><a href="/agencia-seo-medellin/">Agencia SEO Medellín</a></li>
+                        <li><a href="#servicios">SEO - Posicionamiento Web</a></li>
+                        <li><a href="#servicios">Google Ads - SEM</a></li>
+                        <li><a href="#servicios">Crecimiento Integral</a></li>
+                        <li><a href="#servicios">Analítica Web</a></li>
+                        <li><a href="#servicios">Optimización de Conversiones</a></li>
+                        <li><a href="#servicios">Consultoría Digital</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-section">
                     <h3>La Agencia</h3>
                     <ul>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#equipo">Equipo</a></li>
                         <li><a href="#casos-exito">Casos de Éxito</a></li>
-                        <li><a href="#metodologia">Metodología</a></li>
+                        <li><a href="#proceso">Nuestra Metodología</a></li>
                         <li><a href="#contacto">Contacto</a></li>
-                        <li><a href="#portafolio">Portafolio</a></li>
+                        <li><a href="https://portafolio.ranknroll.co/" target="_blank">Portafolio</a></li>
+                        <li><a href="#equipo">Nuestro Equipo</a></li>
+                        <li><a href="#blog">Blog SEO</a></li>
                     </ul>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>Copyright © 2025 ranknroll.co | Funciona con ranknroll.co</p>
+                <p>Copyright © 2025 ranknroll.co | Hacemos crecer empresas online de forma sostenible</p>
             </div>
         </div>
     </footer>
@@ -1048,83 +1368,4 @@
     <!-- WhatsApp Float Button -->
     <a href="https://wa.me/573025441404?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20sus%20servicios%20de%20marketing%20digital" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.484 3.488"/>
-        </svg>
-    </a>
-
-    <!-- JavaScript -->
-    <script>
-        // EmailJS initialization
-        (function() {
-            emailjs.init("YOUR_EMAILJS_USER_ID"); // Reemplazar con tu User ID de EmailJS
-        })();
-
-        // Contact form handling
-        document.getElementById('contact-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            const formMessages = document.getElementById('form-messages');
-            const submitButton = e.target.querySelector('button[type="submit"]');
-            
-            // Disable submit button
-            submitButton.disabled = true;
-            submitButton.textContent = 'Enviando...';
-            
-            // Get form data
-            const formData = new FormData(e.target);
-            const templateParams = {
-                company: formData.get('company'),
-                name: formData.get('name'),
-                email: formData.get('email'),
-                phone: formData.get('phone'),
-                website: formData.get('website'),
-                industry: formData.get('industry'),
-                service: formData.get('service'),
-                budget: formData.get('budget'),
-                message: formData.get('message')
-            };
-            
-            // Send email using EmailJS
-            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
-                .then(function(response) {
-                    // Success message
-                    formMessages.innerHTML = '<div class="success-message">¡Gracias por tu consulta! Te contactaremos pronto.</div>';
-                    e.target.reset();
-                    
-                    // Send confirmation email to client
-                    const confirmationParams = {
-                        to_email: templateParams.email,
-                        to_name: templateParams.name,
-                        company: templateParams.company
-                    };
-                    
-                    emailjs.send('YOUR_SERVICE_ID', 'YOUR_CONFIRMATION_TEMPLATE_ID', confirmationParams);
-                    
-                }, function(error) {
-                    // Error message
-                    formMessages.innerHTML = '<div class="error-message">Hubo un error al enviar el formulario. Por favor, intenta nuevamente.</div>';
-                    console.error('EmailJS error:', error);
-                })
-                .finally(function() {
-                    // Re-enable submit button
-                    submitButton.disabled = false;
-                    submitButton.textContent = 'Enviar consulta';
-                });
-        });
-
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-    </script>
-</body>
-</html>
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297
